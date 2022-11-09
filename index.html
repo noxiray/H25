@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>DubbelKlik</title>
+        <link rel="stylesheet" href="main.css">
+        <script type="text/JavaScript"src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("p").dblclick(function(){
+                    $(this).slideUp();
+                });
+            });
+            </script>
+
+    </head>
+    <body>
+        <p class="regel1">Dubbel klik op mij en ik verdwijn.</p>
+        <p class="regel2">Dubbel klik op mij en ik verdwijn.</p>
+        <p class="regel3">Dubbel klik op mij en ik verdwijn.</p>
+    </body>
+</html>
