@@ -7,19 +7,19 @@
         <script type="text/JavaScript"src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
         <script>
             $(document).ready(function() {
-                $('.toggleButton').click(function() {
-                $('.regel1').fadeToggle(1000);
-                $('.regel2').fadeToggle(500);
-                $('.regel3').fadeToggle(2000);
+                $('#toggleButton').click(function() {
+                $('#regel1').fadeToggle(1000);
+                $('#regel2').fadeToggle(500);
+                $('#regel3').fadeToggle(2000);
                 });
             });
         </script>
     </head>
     <body>
-        <p class="regel1">Dit is de eerste regel</p>
-        <p class="regel2">Dit is de tweede regel</p>
-        <p class="regel3">Dit is de derde regel</p>
+        <p id="regel1">Dit is de eerste regel</p>
+        <p id="regel2">Dit is de tweede regel</p>
+        <p id="regel3">Dit is de derde regel</p>
         <br>
-        <button class="toggleButton">Toggle de regels</button>
+        <button id="toggleButton">Toggle de regels</button>
     </body>
 </html>
