@@ -3,14 +3,14 @@ p{
     padding: 30px;
 }
 
-#regel1{
+.regel1{
     background-color: #53CDE3;
 }
 
-#regel2{
+.regel2{
     background-color: #E18438;
 }
 
-#regel3{
+.regel3{
     background-color: #1CD819;
 }
